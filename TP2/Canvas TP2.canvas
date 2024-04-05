@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"3c512e66f41bf6e8","type":"file","file":"UM/TS/TP2/Apontamentos.md","x":-597,"y":-580,"width":400,"height":290},
+		{"id":"e2f8afeea6b916f0","type":"text","text":"- Token de atorização\n- Certificados Digitais do paciente e da unidade de saúde","x":-58,"y":200,"width":250,"height":130},
+		{"id":"5dbb8ede8f61034b","type":"text","text":"![Medical App | center | 100](Page_9-512.png)\nAplicação Médica","x":-30,"y":-40,"width":195,"height":200,"color":"5"},
+		{"id":"3164272a4357d590","type":"text","text":"- Certificado digital\n- Token de atorização\n- Certificados Digitais do paciente e da unidade de saúde","x":257,"y":265,"width":265,"height":160},
+		{"id":"4217494e47de1f07","type":"text","text":"![Broker | center | 100](59514.png)\n[[Broker]]","x":-30,"y":380,"width":195,"height":200,"color":"2"},
+		{"id":"3e950c9483d0bde4","type":"text","text":"![[148825.png | center | 100]]\nBase de dados Unidades Saúde 1","x":577,"y":140,"width":215,"height":190,"color":"1"},
+		{"id":"452a10cff20dcc09","type":"text","text":"Canal Seguro: \nPedido com a lista de atributos médicos","x":67,"y":-275,"width":250,"height":140},
+		{"id":"423245f7ccc88967","type":"text","text":"Envia: \n- Token de autorização\n- Certificado digital","x":-197,"y":-275,"width":250,"height":140},
+		{"id":"04a82ce8f9178dc6","type":"text","text":"![Patient App | center | 100](generic_edge_android_phone_device.png)\nAplicação Paciente","x":-30,"y":-580,"width":195,"height":200,"color":"4"},
+		{"id":"ca1d41bef9ce449e","type":"text","text":"![[148825.png | center | 100]]\nBase de dados Unidades Saúde 2","x":577,"y":-230,"width":215,"height":190,"color":"1"},
+		{"id":"893a79837010b6e3","type":"text","text":"Troca de dados","x":595,"y":25,"width":180,"height":70},
+		{"id":"0b1bc248ff925508","type":"text","text":"Autoridade Certificadora","x":390,"y":-410,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"6f04ded8ab7ac41d","fromNode":"04a82ce8f9178dc6","fromSide":"bottom","toNode":"423245f7ccc88967","toSide":"top","color":"1"},
+		{"id":"ccab3c9e67abc53d","fromNode":"5dbb8ede8f61034b","fromSide":"top","toNode":"452a10cff20dcc09","toSide":"bottom","color":"1"},
+		{"id":"1dc52e33a7cdfe6e","fromNode":"5dbb8ede8f61034b","fromSide":"bottom","toNode":"4217494e47de1f07","toSide":"top"},
+		{"id":"cd4a60440b4d6426","fromNode":"4217494e47de1f07","fromSide":"right","toNode":"3e950c9483d0bde4","toSide":"left"},
+		{"id":"c98ee91e5d9ea0ca","fromNode":"452a10cff20dcc09","fromSide":"top","toNode":"04a82ce8f9178dc6","toSide":"bottom","color":"1"},
+		{"id":"8b4c17e9753304dd","fromNode":"423245f7ccc88967","fromSide":"bottom","toNode":"5dbb8ede8f61034b","toSide":"top","color":"1"},
+		{"id":"58709340066fd0f9","fromNode":"3e950c9483d0bde4","fromSide":"top","toNode":"ca1d41bef9ce449e","toSide":"bottom","fromEnd":"arrow","color":"1"}
+	]
+}

@@ -1,0 +1,11 @@
+- Mediar o pedido de atributos entre uma unidade de saúde que solicita dados de um titular e aquelas que possuem dos respetivos dados em seus sistemas
+- Não mantém os valores dos atributos na sua base de dados
+- Manutenção de um mapa entre grupos de atributos de um respetivo titular e as unidades de saúde que possuem os respetivos valores
+- Garantir confidencialidade, integridade e autenticidade das partes envolvidas
+- Entidades devem usar um esquema que suporte autenticação mútua
+- Infraestrutura:
+	- Sistema operativo do servidor: Ubuntu Server 20.04.6 LTS
+	- Servidor web: Apache Tomcat 10.0.27
+	- Base de dados: PostgreSQL 14.11
+	- Biblioteca de comunicação segura: OpenSSL 3.0.13
+	- Backend de gestão: Django 5.0.3
